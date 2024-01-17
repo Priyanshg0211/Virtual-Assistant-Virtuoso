@@ -56,7 +56,7 @@ gaming experiences.
 accessibility, making Virtuoso an inclusive virtual assistant suitable for a diverse
 user base.
 
-4 ommunity Collaboration: By adopting an open-source development model on
+4. Community Collaboration: By adopting an open-source development model on
 GitHub, Virtuoso encourages collaboration and welcomes contributions from the
 developer community, fostering continuous improvement and innovation.
 
