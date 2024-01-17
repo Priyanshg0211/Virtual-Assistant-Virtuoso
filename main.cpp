@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
@@ -239,7 +240,17 @@ int main()
                     system(string(url).c_str());
                     system("pause");
                 }
+                else if (strcmp(ch, "play music") == 0)
+                {
+                    cout << "Playing music..." << endl;
+                    string phrase = "Playing music";
+                    string command = "espeak \"" + phrase + "\"";
+                    const char *charCommand = command.c_str();
+                    system(charCommand);
+                    system("MUSIC.wav");
 
+                    return 0;
+                }
                 else if (strcmp(ch, "open youtube") == 0)
                 {
                     string url = "start https://www.youtube.com/results?search_query=";
@@ -369,5 +380,5 @@ int main()
         }
     } while (1);
 
-    return 0;
+    return 1;
 }
