@@ -247,7 +247,7 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    system("MUSIC.wav");
+                    system("over_the_horizon.wav");
 
                     return 0;
                 }
